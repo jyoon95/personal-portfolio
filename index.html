@@ -6,7 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joseph Yoon Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/copyright.css">
+    <link rel="stylesheet" href="css/phone.css">
     <script src="https://kit.fontawesome.com/34e23ee777.js" crossorigin="anonymous"></script>
 
 </head>
@@ -153,8 +159,8 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope"></i>contact@example.com</p>
-                    <p><i class="fa-solid fa-phone"></i>123-456-7890</p>
+                    <p><i class="fa-solid fa-envelope"></i>jyoonpop@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>201-937-6599</p>
                     <div class="social-icons">
                         <a href="https://www.linkedin.com/in/joseph-j-yoon95/"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://github.com/jyoon95"><i class="fa-brands fa-github"></i></a>
@@ -163,12 +169,13 @@
                     <a href="images/resume.pdf" download class='btn btn2'>Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="Message" id="message" rows="10" placeholder="Your Message"></textarea>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="Message" rows="10" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
@@ -176,8 +183,9 @@
             <p>Copyright &copy; 2023 Joseph Yoon</p>
         </div>
     </div>
-    <script src='script.js'></script>
-    <script src="phoneMenu.js"></script>
+    <script src='js/script.js'></script>
+    <script src="js/phoneMenu.js"></script>
+    <script src="js/contactForm.js"></script>
 
 </body>
 
